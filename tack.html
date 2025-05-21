@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tack!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Roboto', Arial, sans-serif;
+      background: linear-gradient(135deg, #d5fdd5, #f0fff0);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .thank-box {
+      background-color: white;
+      padding: 2.5rem 2rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0, 128, 0, 0.1);
+      max-width: 500px;
+      width: 100%;
+    }
+
+    .thank-box h1 {
+      color: #2e7d32;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+
+    .thank-box p {
+      color: #333;
+      margin-bottom: 2rem;
+      font-size: 1.1rem;
+    }
+
+    .thank-box a {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: #004080;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .thank-box a:hover {
+      background-color: #003060;
+      transform: scale(1.03);
+    }
+
+    @media (max-width: 500px) {
+      .thank-box {
+        padding: 2rem 1rem;
+      }
+
+      .thank-box h1 {
+        font-size: 1.5rem;
+      }
+
+      .thank-box p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="thank-box">
+    <h1>Tack för din åsikt!</h1>
+    <p>Vi uppskattar att du tog dig tid att ge feedback om Teknikum.</p>
+    <a href="index.html">🡐 Tillbaka till formuläret</a>
+  </div>
+</body>
+</html>
