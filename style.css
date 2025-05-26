@@ -68,7 +68,7 @@ textarea {
 button {
   margin-top: 1.8rem;
   width: 100%;
-  background-color: #004080;
+  background-color: #4197fa;
   color: white;
   padding: 0.75rem;
   border: none;
@@ -79,7 +79,7 @@ button {
 }
 
 button:hover {
-  background-color: #003060;
+  background-color: #80b9f3;
   transform: scale(1.02);
 }
 
@@ -101,11 +101,27 @@ footer {
   input, textarea, button {
     font-size: 1rem;
   }
+
+  
+}
+.info-knapp{
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #58a1ee;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
 }
 
-       /* tack sidan */
-       
-       
+.info-knapp:hover {
+  background-color: #1f4e7a;
+}
+
+       /* Tack sidan*/
 body.thank-page {
   margin: 0;
   font-family: 'Roboto', Arial, sans-serif;
